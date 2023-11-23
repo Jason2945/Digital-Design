@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/wj294/Documents/Digital-Design/Quartus_Boolean_1/boolean1.bdf
+source_file = 1, C:/Users/wj294/Documents/Digital-Design/Quartus_Boolean_1/db/boolean1.cbx.xml
+design_name = boolean1
+instance = comp, \x~output\, x~output, boolean1, 1
+instance = comp, \b~input\, b~input, boolean1, 1
+instance = comp, \d~input\, d~input, boolean1, 1
+instance = comp, \a~input\, a~input, boolean1, 1
+instance = comp, \c~input\, c~input, boolean1, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, boolean1, 1
