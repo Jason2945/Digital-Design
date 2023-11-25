@@ -1,3 +1,11 @@
+- Create a project to display my birthday (09-12-97) on the DE10-Standard Board.
+
+- Created a truth table to find out the values of a-g on the seven segment display board. X,Y,Z are the switch inputs.
+
+- Used boolean algebra and K-maps to simplify equations.
+
+- Programmed the board and display it in DE-10 Birthday.mp4
+
 Create a truth table with DOB 09/12/97
 
 SSD is inverted, so to display LED 0 is high.
