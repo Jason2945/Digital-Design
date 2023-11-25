@@ -137,3 +137,6 @@ equations:
 
 (A*B*C)NOT = ANOT + BNOT + CNOT
 (A + B + C)NOT = ANOT * BNOT * CNOT
+
+![Alt text](images/demorgan_theorem.png)
+
