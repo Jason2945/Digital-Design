@@ -1,0 +1,1 @@
+Create a 3 bit counter using JK Flip Flop with an Asynchronous reset to device. After the 3 bit is created, the 3 bit is put into the 7447 device. A BCD to SSD device. The device outputs the numbers 1-5 on the SSD display.

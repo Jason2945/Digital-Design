@@ -1,0 +1,1 @@
+Created a vhdl file for a full adder that included a sum and a carry out. Simulated the waveform and outputted a result of the waveform.

@@ -1,0 +1,1 @@
+Wrote VHDL files or created Block diagrams for D flip flop, JK flip flop, and SR flip flop.

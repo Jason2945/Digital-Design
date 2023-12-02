@@ -1,4 +1,6 @@
-# Working With Multsim And Logic Circuits
+# Working With Multisim And Logic Circuits
+
+Created 3 circuits in Multisim and outputted the results to get a truth table for each circuit design. The 3 circle demonstrates an AOI circuit, a NAND only circuit, and a NOR only circuit
 
 ## AOI Circuit ##
 
