@@ -1,0 +1,2 @@
+Create a VHDL project displaying the 4 Bit shift counter through a D Flip Flop and a JK Flip Flop. The code will be built in Quartus Prime
+in a block diagram. The program will be uploaded and displayed on the DE10 Standard Board.
