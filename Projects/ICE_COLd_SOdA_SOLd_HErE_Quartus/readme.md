@@ -1,7 +1,9 @@
-# Project Outline
+## Objective ##
 
-Create a combinational logic circuit that displays the message "ICE CoLd SOdA SOLd HErE on 4 HEX displays on the DE10-Standard Board.
-The design will have 3 inputs and 28 outputs.
+- Project objective is to gain experience designing complex combinational logic circuits.
+- This project will display the message ICE COLd SOdA SOLd HErE on the DE10 Standard Board.
+- The design will have 3 inputs (switch buttons) and 28 outputs (SSD)
+- Input will be toggled from 0 (000) to 4 (100).
 
 # Project Display
 
@@ -59,3 +61,6 @@ The design will have 3 inputs and 28 outputs.
 - e = HEX3 f
 - f = Z + (XNOT * YNOT)
 - g = HEX3 f
+
+## Link to Soda Display on DE10 Standard Board ##
+https://drive.google.com/file/d/1cZpcpiqf9qBHuZnTsD3BXYrUsq2IAUIv/view?usp=sharing

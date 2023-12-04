@@ -1,9 +1,8 @@
+## Objective ##
 - Create a project to display my birthday (09-12-97) on the DE10-Standard Board.
-
 - Created a truth table to find out the values of a-g on the seven segment display board. X,Y,Z are the switch inputs.
-
 - Used boolean algebra and K-maps to simplify equations.
-
+- Work with the bdf (Block Diagram File) of Quartus Prime to build the birthday circuit.
 - Programmed the board and display it in DE-10 Birthday.mp4
 
 Create a truth table with DOB 09/12/97
@@ -30,3 +29,6 @@ SSD is inverted, so to display LED 0 is high.
 - e = d
 - f = (XNOT * Y) + (X * YNOT) + (X * Z)
 - g = (Y * Z) + (XNOT * YNOT * ZNOT)
+
+## Link for Birthday Project Display on DE10 Standard Board ##
+https://drive.google.com/file/d/1h7CTzeSDvaKO-9VBSpr6kkdKF80WT0EN/view?usp=sharing
