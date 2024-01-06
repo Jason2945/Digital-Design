@@ -1,0 +1,25 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY Counter IS
+	PORT(
+		Clk, Reset_N : IN STD_LOGIC;
+		Count : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
+	);
+END Counter;
+
+ARCHITECTURE arch OF Four_Bit_Count IS
+	SIGNAL internal_count : STD_LOGIC_VECTOR(3 DOWNTO 0);
+	
+BEGIN
+	counter : PROCESS(Clk, Reset_N)
+	BEGIN
+		IF (Reset_N = '0') THEN
+			internal_count <= "0000";
+		ELSIF (RISING_EDGE(Clk)) THEN
+			internal+internal_count <= internal_count + 1;
+		END IF;
+	END PROCESS;
+	
+	Count <= internal_count;
+END arch;

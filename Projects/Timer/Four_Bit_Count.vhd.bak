@@ -1,0 +1,10 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY Four_Bit_Count IS
+	PORT(
+		Clk, Reset_N : IN STD_LOGIC;
+		Count : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
+	);
+END Four_Bit_Count;
+

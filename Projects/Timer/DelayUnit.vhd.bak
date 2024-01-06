@@ -1,0 +1,16 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY Delay_Unit IS
+	PORT(
+	Max_Value : IN STD_LOGIC_VECTOR(23 DOWNTO 0);
+	Clk : IN STD_LOGIC;
+	Reset_N : IN STD_LOGIC;
+	Flag : OUT STD_LOGIC;
+	Test_pt : OUT STD_LOGIC
+	);
+END Delay_Unit;
+
+ARCHITECTURE arch OF Delay_Unit IS
+
+BEGIN
